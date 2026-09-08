@@ -176,6 +176,16 @@
   .project-card ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:0.6rem;}
   .project-card li{display:flex;gap:0.6rem;color:var(--text-muted);font-size:0.94rem;}
   .project-card li::before{content:"→";color:var(--accent);flex-shrink:0;font-weight:700;}
+  .project-link{display:inline-flex;align-items:center;gap:0.4rem;margin-top:1.1rem;font-size:0.86rem;font-weight:700;color:var(--accent);}
+  .project-link:hover{text-decoration:underline;}
+  .repo-heading{margin:3rem 0 1.5rem;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);font-family:ui-monospace,monospace;font-weight:600;}
+  .repo-card{
+    display:block;background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:10px;padding:1.3rem 1.4rem;transition:border-color .15s ease, background .15s ease;
+  }
+  .repo-card:hover{border-color:var(--accent);background:var(--surface-2);}
+  .repo-card h3{font-size:0.98rem;}
+  .repo-card .lang{color:var(--accent);font-size:0.8rem;font-weight:600;margin-top:0.5rem;font-family:ui-monospace,monospace;}
 
   /* ---- Certifications ---- */
   #certifications{padding:5.5rem 0;background:var(--bg-alt);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
@@ -265,7 +275,7 @@
     <div class="reveal">
       <h1>Faith Wambui Wachira</h1>
       <p class="role">Data Analyst · Statistics Graduate · Machine Learning &amp; AI</p>
-      <p class="lede">Statistics graduate turning raw data into decisions through analysis, dashboards, and predictive models — currently analysing visitor and campaign data at Kenya Wildlife Service to guide marketing and strategy.</p>
+      <p class="lede">Statistics graduate turning raw data into decisions through analysis, dashboards, and predictive models, currently analysing visitor and campaign data at Kenya Wildlife Service to guide marketing and strategy.</p>
       <div class="hero-ctas">
         <a class="btn btn-primary" href="#contact">Get In Touch</a>
         <a class="btn btn-outline" href="#projects">View Projects</a>
@@ -430,7 +440,44 @@
           <li>Built, tuned, and compared multiple classification models to predict benign vs. malignant diagnoses, selecting the best performer on evaluation metrics.</li>
           <li>Deployed the final model as an interactive Streamlit web app that lets healthcare professionals enter patient data and receive real-time predictions with confidence scores.</li>
         </ul>
+        <a class="project-link" href="https://github.com/Wachirafaith/BREASTCANCER-PREDICTION" target="_blank" rel="noopener">View on GitHub ↗</a>
       </div>
+    </div>
+
+    <p class="repo-heading reveal">More on GitHub</p>
+    <div class="card-grid reveal">
+      <a class="repo-card" href="https://github.com/Wachirafaith/Data-Cleaning-and-EDA-with-Python" target="_blank" rel="noopener">
+        <h3>Data Cleaning &amp; EDA with Python</h3>
+        <div class="lang">Python · Jupyter Notebook</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/Data-Science-101" target="_blank" rel="noopener">
+        <h3>Data Science 101</h3>
+        <div class="lang">Jupyter Notebook</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/StreamlitApp" target="_blank" rel="noopener">
+        <h3>Streamlit App</h3>
+        <div class="lang">Python</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/Streamlit101" target="_blank" rel="noopener">
+        <h3>Streamlit 101</h3>
+        <div class="lang">Python</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/Human-Resource-Analytics-with-SQL-and-PowerBI" target="_blank" rel="noopener">
+        <h3>HR Analytics with SQL &amp; Power BI</h3>
+        <div class="lang">SQL · Power BI</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/Data-Professionals-Dashboard-Power-BI-" target="_blank" rel="noopener">
+        <h3>Data Professionals Dashboard</h3>
+        <div class="lang">Power BI</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/World-Layoffs-SQL-Project" target="_blank" rel="noopener">
+        <h3>World Layoffs SQL Project</h3>
+        <div class="lang">SQL</div>
+      </a>
+      <a class="repo-card" href="https://github.com/Wachirafaith/Bike-Sales-Data-Analysis-Excel-Project-" target="_blank" rel="noopener">
+        <h3>Bike Sales Data Analysis</h3>
+        <div class="lang">Excel</div>
+      </a>
     </div>
   </div>
 </section>
